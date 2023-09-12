@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>evelution</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            border: border box;
+        }
+
+        .grandfather {
+            display: flex;
+            border: 2px dotted black;
+            justify-content: center;
+
+
+        }
+
+        .father {
+            margin: 10px;
+            border: 2px dotted black;
+            width: 40%;
+            height: 400px;
+        }
+
+        .person {
+            border: 2px dotted black;
+            display: flex;
+            flex-direction: column;
+            margin: 5px;
+            display: flex;
+            flex-direction: row;
+            height: 360px;
+        }
+
+        .child1 {
+            border: 2px dotted black;
+            margin: 5px;
+            margin-top: 20px;
+        }
+
+        .child12 {
+            border: 2px dotted black;
+            margin: 5px;
+            margin-top: 20px;
+        }
+
+        .child3 {
+            border: 2px dotted black;
+            margin: 5px;
+            margin-top: 20px;
+        }
+
+        .uncle {
+            width: 40%;
+            border: 2px dotted black;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .person1 {
+            border: 1px dotted black;
+            margin: 10px;
+        }
+
+        .person2 {
+            border: 2px dotted black;
+            margin: 5px;
+        }
+
+        .person3 {
+            border: 1px dotted black;
+            margin: 5px;
+        }
+
+        .child2 {
+            height: 170px;
+            text-align: center;
+
+        }
+
+        #org {
+            background-color: rgba(237, 79, 21, 0.874);
+            border: 1px dotted black;
+            margin: 5px;
+            height: 30px;
+            padding-top: 10px;
+        }
+
+        #blue {
+            border: 1px dotted blue;
+            color: blue;
+            margin: 5px;
+            height: 30px;
+            padding-top: 10px;
+        }
+
+        #green {
+            border: 1px dotted black;
+            background-color: green;
+            margin: 5px;
+            height: 30px;
+            padding-top: 10px;
+        }
+
+        #one {
+            border: 1px dotted black;
+            height: 30px;
+            margin: 3px;
+            text-align: center;
+            padding-top: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grandfather">
+        <div class="father">father
+            <div class="person">person
+                <div class="child1">child1</div>
+                <div class="child12">child2</div>
+                <div class="child3">child3
+                    <div id="one">1</div>
+                    <div id="one">2</div>
+                    <div id="one">3</div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="uncle">uncle
+            <div class="person1">person1
+
+            </div>
+            <div class="person2">
+                person2
+                <div class="child1">child1</div>
+                <div class="child2">child2
+                    <div id="org">1</div>
+                    <div id="blue">2</div>
+                    <div id="green">3</div>
+                </div>
+                <div class="child3">child3</div>
+            </div>
+            <div class="person3">person3</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
